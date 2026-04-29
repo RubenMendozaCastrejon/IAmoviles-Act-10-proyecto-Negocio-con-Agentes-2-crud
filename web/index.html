@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,20 +28,31 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>crudinvestech</title>
   <link rel="manifest" href="manifest.json">
 </head>
-<body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
+<body>
   <script src="flutter_bootstrap.js" async></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+
+  <!-- 👇 AGREGA ESTO -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyA5M3jOWpZ945c-qOXjX8jdEdEQ2SWY4nY",
+      authDomain: "bdinvestech.firebaseapp.com",
+      projectId: "bdinvestech",
+      storageBucket: "bdinvestech.firebasestorage.app",
+      messagingSenderId: "160748377511",
+      appId: "1:160748377511:web:bc17f7394b721a13ba1282"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
 </body>
+
 </html>

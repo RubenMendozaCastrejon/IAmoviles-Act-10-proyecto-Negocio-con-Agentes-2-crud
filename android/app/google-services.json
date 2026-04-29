@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160748377511",
+    "project_id": "bdinvestech",
+    "storage_bucket": "bdinvestech.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160748377511:android:80aa3ad5eea6b88aba1282",
+        "android_client_info": {
+          "package_name": "com.example.crudinvestech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgm4Hd89SThi7Is5HNzVdpuIgt7vKkDLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
